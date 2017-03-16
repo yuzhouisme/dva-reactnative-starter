@@ -119,3 +119,7 @@ subscriptions: {
 Thanks to [dvajs group](https://github.com/dvajs) for providing the lightweight framework for developers. And in work I am a mobile application developer as android/iOS platform, before using dva, I have been using the reactnative+reudx+redux-thunk. I have subscribed to issue list for a long time. I saw a lot of issues have been proposed, and soon be solved. Thanks to the team and chencheng (云谦) once again.
 
 Thank you for reading.
+
+## 
+
+logo_ico.png from [rezzzzzzz's Oh My D.VA](https://dribbble.com/rezzzzzz) who in [dribbble](https://dribbble.com). Thank rezzzzzzz! She's so pink :)
