@@ -11,6 +11,7 @@ This project is designed to help those who use dva to develop an native-app(it a
 1. [Dva](https://github.com/dvajs/dva), Lightweight front-end framework based on redux, redux-saga and react-router@2.x. (Inspired by elm and choo)
 
 [Dva Knowledgemap](https://github.com/dvajs/dva-knowledgemap)
+
 [Quick Start (12 步 30 分钟，完成用户管理的 CURD 应用) (react+dva+antd)](https://github.com/sorrycc/blog/issues/18)
 
 2. [React-Motion](https://github.com/chenglou/react-motion), A spring that solves your animation problems.
@@ -18,24 +19,26 @@ This project is designed to help those who use dva to develop an native-app(it a
 It's Works with React-Native v0.18+. In addition, I have written two examples on the web application. If you are interested in the animation, you should go to look at it. (Additional knowledge.)
 
 [react-motion-tab-animate](https://github.com/yuzhouisme/react-motion-tab-animate)
+
 [react-motion-nav-animate](https://github.com/yuzhouisme/react-motion-nav-animate)
 
 ## Screenshot
 
+![Screenshot](https://github.com/yuzhouisme/dva-reactnative-starter/blob/master/Screenshot/screenshot.gif)
 
 ## Getting started
 
-1.Clone this repo.
+1. Clone this repo.
 
-2.Modify something in package.json like name to "your-project-name".
+2. Modify something in package.json like name to "your-project-name".
 
-3.Run npm install.
+3. Run npm install.
 
 ```bash
 $ npm install
 ```
 
-4.Run.
+4. Run.
 
 ```bash
 $ react-native run-ios
@@ -43,7 +46,7 @@ $ react-native run-ios
 
 ## Explanation
 
-1.To know the directory structure.
+1. To know the directory structure.
 
 ```
 $ tree . -L 3
@@ -79,7 +82,7 @@ $ tree . -L 3
 └── yarn.lock
 ```
 
-2.The whole entrance is index.jsx. I try to describe clearly why import that.
+2. The whole entrance is index.jsx. I try to describe clearly why import that.
 
 ```
 ...
@@ -97,9 +100,9 @@ app.router(() => <Router />);
 AppRegistry.registerComponent('RnDva', () => app.start());
 ```
 
-3.Dva/Redux/React-Router, reading some documents will help you.
+3. Dva/Redux/React-Router, reading some documents will help you.
 
-4.Look at 'subscriptions' (in models/Initial.js), when app in Splash screen, then will jump to Homepage after 3s.
+4. Look at 'subscriptions' (in models/Initial.js), when app in Splash screen, then will jump to Homepage after 3s.
 ```
 ...
 subscriptions: {
