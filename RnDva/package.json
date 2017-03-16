@@ -1,0 +1,22 @@
+{
+  "name": "RnDva",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start"
+  },
+  "dependencies": {
+    "antd-mobile": "^1.0.5",
+    "dva": "^1.2.1",
+    "lodash": "^4.17.4",
+    "react": "~15.4.1",
+    "react-dom": "^15.4.2",
+    "react-motion": "^0.4.7",
+    "react-native": "0.42.0",
+    "react-native-router-flux": "^3.38.0"
+  },
+  "devDependencies": {
+    "babel-plugin-import": "^1.1.1",
+    "babel-preset-react-native": "1.9.1"
+  }
+}
